@@ -1,0 +1,111 @@
+/* style.css */
+body {
+  scroll-behavior: smooth;
+  background-color: #0e0a1c;
+  color: #e0e1dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #f6fbf8;
+}
+
+h1, h2, h5 {
+  color: #ffffff;
+}
+
+.card {
+  background-color: #60f956;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(236, 250, 239, 0.2);
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 14px rgba(146, 248, 170, 0.3);
+}
+
+.card:hover .card-title {
+  text-decoration: underline;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  border-color: #5200b6;
+  color: #5e00b6;
+}
+
+.btn-outline-primary:hover {
+  background-color: #220559;
+  color: white;
+}
+
+.btn-outline-warning {
+  border-color: #ffc300;
+  color: #ffc300;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffc300;
+  color: black;
+}
+
+.btn-outline-success {
+  border-color: #06d6a0;
+  color: #06d6a0;
+}
+
+.btn-outline-success:hover {
+  background-color: #06d6a0;
+  color: black;
+}
+
+footer {
+  background-color: #0b0526;
+}
+
+.fade-in {
+  opacity: 1 !important;
+  transition: opacity 1s ease-in;
+}
+
+.card {
+  opacity: 0;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  background-color: #271040;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+  background-color: #2a0a4c;
+}
